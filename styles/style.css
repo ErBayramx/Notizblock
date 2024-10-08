@@ -1,0 +1,123 @@
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.headerBtn {
+    background-color: rgba(187, 213, 69, 0);
+    border: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headerBtn:hover {
+    color: rgb(166, 166, 40);
+    cursor: pointer;
+    text-decoration: wavy;
+}
+
+.section-middle {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.noticeBlock {
+    width: 250px;
+    height: 250px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.windowTitle {
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.windowNotice {
+    margin-top: 5px;
+    background-color: white;
+    height: 100px;
+    width: 80%;
+    display: flex;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.589);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.window {
+    width: 250px;
+    height: 250px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-title {
+    width: 80%;
+    font-size: 25px;
+    padding-inline: 0;
+    padding-block: 0;
+    padding: 0;
+    border: 2px;
+    margin-bottom: 5px;
+}
+
+.input {
+    height: 80px;
+    width: 80%;
+    font-size: 25px;
+    padding-inline: 0;
+    padding-block: 0;
+    padding: 0;
+    border: 2px;
+
+}
+
+.addNoticeBtn {
+    height: 50px;
+    width: 80%;
+    border-width: 0;
+    padding-inline: 0;
+    cursor: pointer;
+}
+
+.addNoticeBtn:hover {
+    background-color: azure;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
